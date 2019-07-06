@@ -19,7 +19,7 @@
     color: #fdfdfd; 
   }
   .navbar .navbar-nav .nav-link {
-    color: #ecf0f1;
+    color: black;
     border-radius: .25rem;
     margin: 0 0.25em;
   }
@@ -71,6 +71,9 @@
     color: white;
     text-align: center;
   }
+.list-image:hover{
+  opacity: 0.6;
+}
 
   @media (max-width: 575px) {
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
