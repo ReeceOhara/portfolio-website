@@ -1,3 +1,9 @@
-$('.list-image').hover(function(){
-    $('.image-caption').style.display = "none";
-})
+$(document).ready(() => {
+    $('.list-image').on('mouseenter', (event) => {
+        $(event.currentTarget).css('opacity', '0.6');
+        $(event.currentTarget).find('.image-caption').fadeIn('slow');
+    }).on('mouseleave', (event) => {
+        $(event.currentTarget).css('opacity', '1');
+        $(event.currentTarget).find('.image-caption').fadeOut('fast');
+    });
+});

@@ -56,12 +56,34 @@
   .navbar .navbar-link:hover {
     color: #fdfdfd;
   }
+
+.navbar-brand{
+  margin-left: 5%;
+}
+#navbarNav{
+  margin-right: 5%;
+}
   
-  #title-header{
+#title-header{
     text-decoration: underline;
     color: #e67e22;
 }
-
+.list-group-item{
+  text-align: center;
+}
+.image-title{
+  color: black;
+  text-decoration: underline;
+}
+.image-caption{
+  color: #c87125;
+  text-decoration: underline;
+  text-shadow: 1px 0px black;
+  display: none;
+}
+#contact-caption{
+  color: black;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -69,10 +91,13 @@
     width: 100%;
     background-color: black;
     color: white;
-    text-align: center;
   }
-.list-image:hover{
-  opacity: 0.6;
+.footer-header{
+  margin-left: 5%;
+  float: left;
+}
+.footer-header i, .footer-header{
+  font-size: 1em;
 }
 
   @media (max-width: 575px) {

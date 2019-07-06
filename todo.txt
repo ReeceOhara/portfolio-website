@@ -1,1 +1,4 @@
-Split navbar
+Finish footer
+Change favicon image
+Change header image
+Start on next pages
