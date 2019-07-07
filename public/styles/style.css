@@ -84,6 +84,9 @@
 #contact-caption{
   color: black;
 }
+.list-group{
+  padding-bottom: 2%;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -98,6 +101,14 @@
 }
 .footer-header i, .footer-header{
   font-size: 1em;
+}
+.footer-icons{
+  float: right;
+  font-size: 1em;
+}
+.social-icon{
+  width: 25px;
+  height: 25px;
 }
 
   @media (max-width: 575px) {
