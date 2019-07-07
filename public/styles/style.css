@@ -78,7 +78,7 @@
 .image-caption{
   color: #c87125;
   text-decoration: underline;
-  text-shadow: 1px 0px black;
+  text-shadow: 0.5px 0px black;
   display: none;
 }
 #contact-caption{
