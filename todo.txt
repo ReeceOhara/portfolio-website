@@ -1,4 +1,4 @@
 Finish footer
-Change favicon image
-Change header image
-Start on next pages
+Start on projects page
+Start on resume page
+Start on contact me page

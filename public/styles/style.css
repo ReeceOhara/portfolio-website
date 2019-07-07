@@ -63,10 +63,14 @@
 #navbarNav{
   margin-right: 5%;
 }
-  
+.title{
+  text-decoration: underline;
+}
 #title-header{
-    text-decoration: underline;
     color: #e67e22;
+}
+#about-paragraph{
+  font-weight: 600;
 }
 .list-group-item{
   text-align: center;
@@ -84,8 +88,17 @@
 #contact-caption{
   color: black;
 }
-.list-group{
+.list-group, #project-list{
   padding-bottom: 2%;
+}
+.project-container{
+  margin-bottom: 2%;
+}
+.project-title{
+  font-weight: 500;
+}
+.orange-title{
+  color: #e67e22;
 }
 .footer {
     position: fixed;
@@ -122,6 +135,9 @@
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
       color: #fdfdfd;
       background-color: #000000;
+    }
+    .project-title{
+      font-size: 1em;
     }
     .footer{
         display: none;
