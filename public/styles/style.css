@@ -80,11 +80,8 @@
   position: absolute;
   color: #c87125;
   text-decoration: underline;
-  text-shadow: 0.5px 0px black;
+  text-shadow: 0.5px 1px black;
   display: none;
-}
-#contact-caption{
-  color: black;
 }
 .jumbotron{
   background-color: white;
