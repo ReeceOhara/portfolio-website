@@ -101,6 +101,28 @@
 .orange-title{
   color: #e67e22;
 }
+#resume-main{
+  margin-bottom: 1%;
+}
+#resume{
+  margin-top: 1%;
+}
+.resume-title{
+  text-decoration: underline;
+}
+.resume-list ul li{
+  list-style-type: none;
+  margin: 0 0 4px 1em;
+}
+.resume-list ul li::before{
+  color: #e67e22;
+  content: "\2022";
+  display: inline-block;
+  font-size: 2em;
+  width: 1em;
+  margin-left: -1.25em;
+  margin-right: 0em;
+}
 .footer {
     position: fixed;
     left: 0;

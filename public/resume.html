@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Reece O'Hara: My Projects</title>
+        <title>Reece O'Hara: My Resume</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -27,11 +27,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="resume.html">Resume</a>
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="resume.html">Resume <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
@@ -40,56 +40,64 @@
             </div>
         </nav>
         <div class="container">
-            <div class="jumbotron">
-                <h1 class="display-3 font-weight-bold title" id="project-header">My Projects</h1>
+            <div class="jumbotron" id="resume-main">
+                <h1 class="display-3 font-weight-bold title" id="resume-header">My Resume</h1>
                 <p class="lead" id="about-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nobis adipisci blanditiis ea commodi hic suscipit velit eveniet quasi aliquid laborum ratione impedit nulla voluptatibus, saepe incidunt nemo inventore laudantium eius. Illo at quae laborum aspernatur dolorum rem laudantium dolor, voluptatem vero neque adipisci tempora debitis repellendus praesentium. Tempora, maxime?</p>
             </div>
         </div>
-        <div class="container mx-auto" id="project-list">
-          <div class="row project-container" id="project-1">
-            <div class="col-3">
-              <a href="#">
-                <img class="img-fluid list-image" src="img/project-1.png" alt="Project-1" width=250>
-              </a>
+        <div class="container mx-auto" id="resume">
+            <div class="row">
+                <div class="col">
+                    <div class="resume-title ml-4">
+                        <h1>
+                            Skills
+                        </h1>
+                    </div>
+                    <div class="resume-list">
+                        <ul>
+                            <li>HTML/CSS/JS</li>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="resume-title ml-4">
+                        <h1>
+                            Experience
+                        </h1>
+                    </div>
+                    <div class="resume-list">
+                        <ul>
+                            <li>2+ years of front-end web development</li>
+                            <li>1 year of backend development and database creation</li>
+                            <li>1 year of web design</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <h4 class="display-7 project-title"><span class="orange-title">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Tenetur neque nam aliquid quisquam officiis dolore accusantium, possimus architecto, vitae quae autem. Fuga distinctio error praesentium!</h4>
-              <a class="project-link" href="#"><img class="img-fluid" src="img/github-icon.png" alt="Project-1 Github" width=75></a>
-              <span>
-                <a class="project-link" href="#"><img class="img-fluid" src="img/placeholder-live.png" alt="Project-1 Live" width=75></a>
-              </span>
+            <div class="row">
+                <div class="col mt-3">
+                    <div class="resume-title ml-4">
+                        <h1>Education</h1>
+                    </div>
+                    <div class="resume-list">
+                        <ul>
+                            <li>Studied computer programming since I was 13 years old</li>
+                            <li>Created my first webpage when I was 14</li>
+                            <li>Graduated with an Associates of Science Degree from Sinclair Community College
+                                with a major focus being on computer programming and software development (Contingent upon
+                                completion)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <!--Potentially a place to put a 'download' button to download the full resume-->
+                </div>
             </div>
-          </div>
-          <div class="row project-container" id="project-2">
-            <div class="col">
-              <h4 class="display-7 project-title"><span class="orange-title">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, praesentium delectus! Asperiores unde nihil a provident eaque inventore deserunt. Consequatur obcaecati minus beatae optio porro.</h4>
-              <a class="project-link" href="#"><img class="img-fluid" src="img/github-icon.png" alt="Project-1 Github" width=75></a>
-              <span>
-                <a class="project-link" href="#"><img class="img-fluid" src="img/placeholder-live.png" alt="Project-1 Live" width=75></a>
-              </span>
-            </div>
-            <div class="col-3">
-              <a href="#">
-                <img class="img-fluid list-image" src="img/project-2.png" alt="Project-1" width=250>
-              </a>
-            </div>
-          </div>
-          <div class="row project-container" id="project-1">
-            <div class="col-3">
-              <a href="#">
-                <img class="img-fluid list-image" src="img/project-3.png" alt="Project-1" width=250>
-              </a>
-            </div>
-            <div class="col">
-              <h4 class="display-7 project-title"><span class="orange-title">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam harum vitae, repellendus numquam voluptas cupiditate a omnis quia. Quasi id iste praesentium beatae tempora!</h4>
-              <a class="project-link" href="#"><img class="img-fluid" src="img/github-icon.png" alt="Project-1 Github" width=75></a>
-              <span>
-                <a class="project-link" href="#"><img class="img-fluid" src="img/placeholder-live.png" alt="Project-1 Live" width=75></a>
-              </span>
-            </div>
-          </div>
         </div>
-        <div class="push"></div>
+        <div class="push pb-3"></div>
         <footer>
           <div class="footer">
             <h4 class="footer-header">
