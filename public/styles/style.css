@@ -113,8 +113,11 @@ html, body{
 .orange-title{
   color: #e67e22;
 }
+#resume-header{
+  text-align: center;
+}
 #resume-main{
-  margin-bottom: 1%;
+  margin-bottom: 10%;
 }
 #resume{
   margin-top: 1%;
@@ -140,6 +143,9 @@ html, body{
   position: relative;
   display: block;
   padding-bottom: 2%;
+}
+.push{
+  padding-bottom: 30px;
 }
 footer {
   position: absolute;
