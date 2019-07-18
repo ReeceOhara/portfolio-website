@@ -5,16 +5,18 @@
         <title>Reece O'Hara: Life-Long Student</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="./styles/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="styles/style.css">
-        <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
         <link rel="stylesheet" href="./styles/icons.css">
         <link rel="shortcut icon" href="img/newIcon.ico" />
         <link rel="icon" href="img/newIcon.ico" />
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
-        <script src="./js/jquery.js"></script>
-        <script src="js/script.js"></script>
     </head>
     <body>
       <div class="main-content">
@@ -41,37 +43,42 @@
         </nav>
         <div class="container main-container">
             <div class="jumbotron">
-                <h1 class="display-3 font-weight-bold title">Welcome</h1>
-                <p class="lead" id="about-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iusto. Quia cumque, amet accusamus nostrum veniam delectus doloremque quibusdam possimus nemo velit expedita qui voluptatem aspernatur. Dolores molestias voluptas a quis fuga ut est provident.</p>
+                <h1 class="display-3 font-weight-bold title">Life-Long Student</h1>
+                <p class="lead" id="about-paragraph">Hey there! I'm <span class="orange-title">Reece O'Hara!</span> Currently I am completing my <span class="orange-title">Associates of Science</span> with a focus in Engineering at Sinclair Community College while also working a part-time (close to full-time) 
+                    job as well as <span class="orange-title">teaching myself</span> javascript (vanilla, JQuery, reactJS, nodeJS), python, C#, data-structures, as well as creating algorithms. Most of my school classes are also focused on <span class="orange-title">computer technology</span> (I have taken courses in C++, and Java). As of right now I am trying to learn
+                    all I can about technology in order to decide what it is I want to focus on. I also still plan on transferring to a 4-year school in order to obtain a <span class="orange-title">Bachelor's in Computer Science.</span> However, no plan is set in stone.
+                </p>
             </div>
         </div>
-        <div class="container" id="bottom-list">
-            <ul class="list-inline bot-list-content">
-              <li class="list-inline-item list-image">
-                <h4 class="font-weight-bold image-title">My Projects</h4>
-                <a href="projects.html">
-                    <div class="carousel-caption image-caption" id="first-caption">
-                      <h4>View my best projects</h4>
+
+        <div class="container mx-auto w-50 bottom-list">
+            <ul class="list-inline">
+                <li class="list-inline-item list-img-link">
+                    <div class="hovereffect">
+                        <img class="img-container" src="./img/projects.png" alt="A link to my projects!" width="300" height="250">
+                        <div class="overlay">
+                            <h2>View My Projects</h2>
+                            <a class="info" href="#">link here</a>
+                        </div>
                     </div>
-                  <img src="img/projects.png" alt="My Projects" width="175" height="175">
-                </a>
-              </li>
-              <li class="list-inline-item list-image">
-                <h4 class="font-weight-bold image-title">Contact Me</h4>
-                <a href="contact.html">
-                  <img src="img/contactMe.png" alt="My Projects" width="175" height="175">
-                  <div class="carousel-caption image-caption" id="second-caption">
-                      <h4>Get in touch!</h4>
-                  </div>
-                </a>
-              </li>
+                </li>
+                <li class="list-inline-item">
+                    <div class="hovereffect">
+                        <img class="img-container" src="./img/contactMe.png" alt="A link to contact me!" width="300" height="250">
+                        <div class="overlay">
+                            <h2>Contact Me</h2>
+                            <a class="info" href="#">link here</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
-          </div>
-          <div class="container">
-              <div class="jumbotron" id="resume-main">
-                  <h1 class="display-5 font-weight-bold title" id="resume-header">My Resume</h1>
-              </div>
-          </div>
+        </div>
+
+        <div class="container">
+            <div class="jumbotron" id="resume-main">
+                <h1 class="display-5 font-weight-bold title" id="resume-header">My Resume</h1>
+            </div>
+        </div>
       <div class="container mx-auto" id="resume">
           <div class="row">
               <div class="col">
@@ -84,7 +91,7 @@
                       <ul>
                           <li>HTML/CSS/JS</li>
                           <li>Node.js</li>
-                          <li>Python</li>
+                          <li>Python (Specifically for data analysis)</li>
                       </ul>
                   </div>
               </div>
@@ -96,9 +103,8 @@
                   </div>
                   <div class="resume-list">
                       <ul>
-                          <li>2+ years of front-end web development</li>
-                          <li>1 year of backend development and database creation</li>
-                          <li>1 year of web design</li>
+                          <li>1 year of front-end website creation with HTML/CSS/JS</li>
+                          <li>1 year of front-end development working with Wordpress</li>
                       </ul>
                   </div>
               </div>
@@ -110,7 +116,7 @@
                   </div>
                   <div class="resume-list">
                       <ul>
-                          <li>Studied computer programming since I was 13 years old</li>
+                          <li>Studied programming languages since I was 13 years old</li>
                           <li>Created my first webpage when I was 14</li>
                           <li>Graduated with an Associates of Science Degree from Sinclair Community College
                               with a major focus being on computer programming and software development (Contingent upon
@@ -141,6 +147,6 @@
                 </h4>
                 </div>
             </footer>
-          </div>
+        </div>
     </body>
 </html>
