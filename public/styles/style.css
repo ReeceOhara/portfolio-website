@@ -238,6 +238,10 @@ footer {
     display: none;
   }
   
+  #resume{
+    padding-bottom: 40px;
+  }
+
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ecf0f1;
   }
