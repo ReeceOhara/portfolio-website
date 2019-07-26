@@ -11,7 +11,8 @@ html, body{
   height: 100%;
 }
 .navbar {
-  background-color: #e67e22;
+  background: rgb(199,114,39);
+  background: linear-gradient(90deg, rgba(199,114,39,1) 0%, rgba(230,126,34,1) 35%, rgba(245,153,71,1) 100%);
 }
 .navbar .navbar-brand {
   color: #ecf0f1;
@@ -237,7 +238,7 @@ footer {
   .bottom-list{
     display: none;
   }
-  
+
   #resume{
     padding-bottom: 40px;
   }
@@ -256,6 +257,7 @@ footer {
   .project-title{
     font-size: 1em;
   }
+
   .footer{
       display: none;
   }
