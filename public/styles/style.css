@@ -171,6 +171,7 @@ html, body{
 .project-container{
   margin-bottom: 2%;
 }
+
 .project-title{
   font-weight: 500;
 }
@@ -180,6 +181,16 @@ html, body{
 .orange-title{
   color: #e67e22;
 }
+
+.orange-title-link{
+  color: #e67e22;
+}
+
+.orange-title-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
 #resume-header{
   text-align: center;
 }
@@ -234,9 +245,43 @@ footer {
   height: 25px;
 }
 
+/*Can change the background color of collapsable navbar or change to light if it looks too bad*/
+.navbar-toggler{
+  margin: auto;
+  background-color: #282828;
+}
+
 @media (max-width: 575px) {
+  .rounded{
+    width: 100%;
+  }
+
+  .jumbotron{
+    padding: 0.5rem 0.5rem;
+  }
+
+  #project-header{
+    font-size: 2.5em;
+  }
+
+  #about-paragraph{
+    font-size: 1em;
+  }
+
   .bottom-list{
     display: none;
+  }
+
+  .proj-img{
+    display: none;
+  }
+
+  .project-link img{
+    width: 50px;
+  }
+
+  .project-title{
+    font-size: 0.8em;
   }
 
   #resume{
@@ -254,12 +299,23 @@ footer {
     color: #fdfdfd;
     background-color: #000000;
   }
+
   .project-title{
     font-size: 1em;
   }
 
-  .footer{
-      display: none;
+  .push{
+    padding-bottom: 35px;
+  }
+
+  .footer-header{
+    font-size: 0.75em;
+    width: 65%;
+  }
+
+  .footer-icons{
+    font-size: 0.75em;
+    width: 25%;
   }
 }
 
