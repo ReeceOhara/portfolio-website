@@ -70,6 +70,10 @@ html, body{
   color: #fdfdfd;
 }
 
+.navbar-toggler{
+  margin: auto;
+}
+
 .navbar-brand{
   margin-left: 5%;
 }
@@ -169,12 +173,16 @@ html, body{
   padding-bottom: 2%;
 }
 .project-container{
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 .project-title{
   font-weight: 500;
+  margin-bottom: 2%;
 }
 .project-link{
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
   font-size: 1.25em;
 }
 .orange-title{
@@ -235,12 +243,33 @@ footer {
 }
 
 @media (max-width: 575px) {
+  .jumbotron{
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
+  .title{
+    font-size: 2em;
+  }
+
+  #optional{
+    display: none;
+  }
+
   .bottom-list{
     display: none;
   }
 
   #resume{
     padding-bottom: 40px;
+  }
+
+  .navbar-brand{
+    margin: auto;
+  }
+
+  .rounded{
+    width: 350px;
   }
 
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -254,12 +283,45 @@ footer {
     color: #fdfdfd;
     background-color: #000000;
   }
+
+  #about-paragraph{
+    font-size: 1.15em;
+  }
+
   .project-title{
     font-size: 1em;
   }
 
+  .project-title a{
+    font-size: 1em;
+  }
+
+  .link-caption{
+    font-size: 0.65em;
+  }
+
+  .git-img{
+    width: 60px;
+  }
+
+  .hero-img{
+    width: 55px;
+  }
+
+  .proj-img{
+    display: none;
+  }
+
+  .push{
+    padding-bottom: 60px;
+  }
+
   .footer{
       display: none;
+  }
+
+  .page-footer{
+    font-size: 0.8em;
   }
 }
 
