@@ -175,6 +175,7 @@ html, body{
 .project-container{
   margin-bottom: 5%;
 }
+
 .project-title{
   font-weight: 500;
   margin-bottom: 2%;
@@ -188,6 +189,16 @@ html, body{
 .orange-title{
   color: #e67e22;
 }
+
+.orange-title-link{
+  color: #e67e22;
+}
+
+.orange-title-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
 #resume-header{
   text-align: center;
 }
@@ -258,6 +269,18 @@ footer {
 
   .bottom-list{
     display: none;
+  }
+
+  .proj-img{
+    display: none;
+  }
+
+  .project-link img{
+    width: 50px;
+  }
+
+  .project-title{
+    font-size: 0.8em;
   }
 
   #resume{
